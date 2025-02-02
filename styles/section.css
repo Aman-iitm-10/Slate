@@ -1,0 +1,121 @@
+.one-page-section {
+    height: 90dvh;
+    margin-left: 10vh;
+}
+.one-page-section1 {
+    height: 90dvh;
+    margin-left: 10vh;
+}
+.one-page-section {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 10px;
+    align-items: center;
+}
+
+.one-page-section__content {
+    margin-top: -8%;
+    grid-column: span 6;
+}
+
+.one-page-section__image {
+    grid-column: span 4;
+    margin-top: -8%;
+    
+}
+
+.one-page-section__image img{
+    margin-left: 19vh;
+}
+.ease-in-left {
+    animation: ease-left;
+    animation-timeline : view(-10%);
+  
+}
+.ease-in-right {
+    animation: ease-righ;
+    animation-timeline : view(-10%);
+ 
+}
+@media (max-width: 768px) {
+    .one-page-section {
+        height: 80dvh;
+        margin-left: 0;
+        display: flex;
+        align-items: baseline;
+        margin-top: 20dvh;
+    }
+    .one-page-section__content {
+        grid-column: span 12;
+        margin-top: 0;
+
+    }
+
+    .one-page-section__image {
+        grid-column: span 12;
+        position: absolute;
+        width: 90%;
+        height: 80%;
+        opacity: 0.4;
+        z-index: -1;
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .one-page-section__image img {
+        margin-left: 0;
+    }
+    .one-page-section1 {
+        margin-left: 0;
+    }
+}
+@keyframes infiniteMove {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(15px);
+    }
+}
+
+@keyframes scrollView {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes ease-left {
+    0% {
+       
+        scale: 0;
+        opacity: 0;
+    }
+    50% {
+       
+        scale: 1;
+        opacity: 1;
+    }
+}
+@keyframes ease-righ {
+    0% {
+       
+        scale: 0;
+        opacity: 0;
+    }
+    50% {
+       
+        scale: 1;
+        opacity: 1;
+    }
+}
+.one-page-section__image {
+    animation: infiniteMove 3s ease-in-out infinite;
+}
+
+.one-page-section__content {
+    animation: scrollView 1s ease-in-out;
+}

@@ -1,0 +1,31 @@
+.faq-item {
+    animation: animate;
+    animation-timeline: view();
+    transition: all 0.5s;
+}
+.title {
+    animation: animate1;
+    animation-timeline: view();
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+        transform: translateX(-20px);
+        
+    }
+    80% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+@keyframes animate1 {
+    0% {
+        opacity: 0;
+       scale: 0.5;
+    }
+    50% {
+        opacity: 1;
+       scale: 1;
+    }
+}

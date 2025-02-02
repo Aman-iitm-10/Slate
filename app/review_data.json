@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Alice Johnson",
+    "image": "https://randomuser.me/api/portraits/women/1.jpg",
+    "review": "This product exceeded my expectations. The quality is outstanding and the customer service was top-notch!",
+    "rating": 5
+  },
+  {
+    "id": 2,
+    "name": "Bob Smith",
+    "image": "https://randomuser.me/api/portraits/men/1.jpg",
+    "review": "Great value for money. I've been using it for a month now and I'm very satisfied with my purchase.",
+    "rating": 4
+  },
+  {
+    "id": 3,
+    "name": "Carol Davis",
+    "image": "https://randomuser.me/api/portraits/women/2.jpg",
+    "review": "The product is good, but there's room for improvement in the delivery process.",
+    "rating": 3
+  },
+  {
+    "id": 4,
+    "name": "David Wilson",
+    "image": "https://randomuser.me/api/portraits/men/2.jpg",
+    "review": "Absolutely love it! It's been a game-changer for my daily routine.",
+    "rating": 5
+  },
+  {
+    "id": 5,
+    "name": "Eva Brown",
+    "image": "https://randomuser.me/api/portraits/women/3.jpg",
+    "review": "Solid product with great features. The only downside is the learning curve, but it's worth it.",
+    "rating": 4
+  }
+]

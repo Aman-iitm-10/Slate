@@ -1,0 +1,31 @@
+/* src/components/InfiniteSlider.css */
+.slider-container {
+    width: 60%;
+    overflow: hidden;
+    margin-left: 10vh;
+
+  }
+  
+  .slider {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .card {
+    flex: 0 0 300px;
+    margin-right: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card p {
+    padding: 10px;
+  }
+  

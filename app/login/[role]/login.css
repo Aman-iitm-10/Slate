@@ -1,0 +1,23 @@
+.form {
+    position: relative;
+  display: grid;
+
+  place-items: center;
+}
+.form::after {
+    content: '';
+    position: absolute;
+    background-image: linear-gradient(to bottom right, #FF9EC4, #FFD07E);
+    width: 900px;
+    height: 900px;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+@media screen and (max-width: 768px) {
+    .form::after {
+        width: 400px;
+        height: 400px;
+    }
+    
+}

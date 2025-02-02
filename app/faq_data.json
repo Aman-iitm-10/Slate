@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "question": "What is React?",
+        "answer": "React is a popular JavaScript library for building user interfaces, particularly single-page applications."
+    },
+    {
+        "id": 2,
+        "question": "What is Tailwind CSS?",
+        "answer": "Tailwind CSS is a utility-first CSS framework that allows you to build custom designs quickly by composing utility classes."
+    },
+    {
+        "id": 3,
+        "question": "How do I install React?",
+        "answer": "You can install React using Create React App or by setting up a new project with Vite. Use npm install react react-dom or npx create-react-app my-app."
+    },
+    {
+        "id": 4,
+        "question": "What are the benefits of using Tailwind CSS?",
+        "answer": "Tailwind CSS provides rapid development, consistent design, and reduces the need for custom CSS by offering utility classes."
+    },
+    {
+        "id": 5,
+        "question": "Is React good for large applications?",
+        "answer": "Yes, React is excellent for large applications due to its component-based architecture, virtual DOM, and robust ecosystem."
+    }
+]
