@@ -1,0 +1,18 @@
+.services {
+    animation: animate-services;
+    animation-duration: 0.8s;
+}
+
+@keyframes animate-services {
+    0% {
+        
+        scale: 0.5;
+        opacity: 0;
+    }
+    100% {
+       
+        scale :1;
+        opacity: 1;
+    }
+    
+}

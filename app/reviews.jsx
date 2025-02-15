@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import reviewData from './review_data.json';
 
-const ReviewCarousel = () => {
+const Review = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
@@ -20,7 +20,7 @@ const ReviewCarousel = () => {
   };
 
   return (
-    <div className="relative w-25 h-96 overflow-hidden bg-gray-100 dark:bg-gray-800 p-4">
+    <div className="relative w-25 h-96 overflow-hidden bg-gray-100 dark:bg-gray-800 p-4 sm:mt-10 z-20">
       <div className="flex items-center justify-center h-full">
         {reviewData.map((review, index) => (
           <div
@@ -54,4 +54,4 @@ const ReviewCarousel = () => {
   );
 };
 
-export default ReviewCarousel;
+export default Review;

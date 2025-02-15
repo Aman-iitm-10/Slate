@@ -66,6 +66,7 @@
     }
     .one-page-section1 {
         margin-left: 0;
+        height: auto;
     }
 }
 @keyframes infiniteMove {
@@ -119,3 +120,52 @@
 .one-page-section__content {
     animation: scrollView 1s ease-in-out;
 }
+
+
+.typewriter {
+    display: flex;
+    
+  }
+  
+  .typewriter p {
+    
+    font-size: 1.5rem;
+    margin-inline: auto;
+    overflow: hidden;
+    /* Keeps on a single line */
+    white-space: nowrap;
+    /* The cursor */
+    border-right: 1px solid;
+    /* steps = number of characters */
+    animation: typing 3s steps(22) forwards, blink 1s step-end infinite;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+  
+    to {
+      width: 100%;
+    }
+  }
+  
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  
+  .animate-pop {
+    animation: pop;
+    animation-timeline: view();
+  }
+  
+  @keyframes pop {
+    0% {
+      transform: scale(0.5);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }

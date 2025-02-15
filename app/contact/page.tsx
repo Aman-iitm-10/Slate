@@ -1,10 +1,12 @@
+import "./sign.css"
+
 export default function Contact() {
   return (
     <div className="container mx-auto mt-8 max-w-2xl">
       <h1 className="text-3xl font-bold mb-6">Contact Us</h1>
       <form className="space-y-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <div>
+          <div className="sign-form">
             <label htmlFor="name" className="block mb-1">
               Name
             </label>
@@ -15,7 +17,7 @@ export default function Contact() {
               className="w-full px-3 py-2 border rounded-md dark:bg-gray-700 dark:border-gray-600"
             />
           </div>
-          <div>
+          <div className="sign-form">
             <label htmlFor="email" className="block mb-1">
               Email
             </label>
@@ -27,7 +29,7 @@ export default function Contact() {
             />
           </div>
         </div>
-        <div>
+        <div className="sign-form">
           <label htmlFor="subject" className="block mb-1">
             Subject
           </label>
@@ -38,7 +40,7 @@ export default function Contact() {
             className="w-full px-3 py-2 border rounded-md dark:bg-gray-700 dark:border-gray-600"
           />
         </div>
-        <div>
+        <div className="sign-form">
           <label htmlFor="message" className="block mb-1">
             Message
           </label>
